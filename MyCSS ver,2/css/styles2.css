@@ -1,0 +1,63 @@
+h1{
+  color:skyblue;
+}
+
+.info
+{
+background-color:aqua;
+}
+
+.normal{
+  font-weght:normal;
+}
+
+#title{
+  color:red;
+}
+
+*{
+  font-size:12px;
+}
+
+[href$="dotinstall"]
+{
+  font-size:bold;
+  }
+
+p+p{
+  border-top:2px solid orange;
+}
+
+ul{
+  list-style-type:circle;
+  list-style-position:inside;
+  text-shadow:5px 5px 5px bisque;
+}
+
+h5::before,
+h6::before{
+  content:'--';
+}
+
+h5::after,
+h6::after{
+  content:'--'
+}
+
+.btn{
+  width:100px;
+  background:blue;
+  text-align:center;
+  color:white;
+  padding:4px;
+  cursor:pointer;
+}
+
+.btn:hover{
+  opacity:0.8;
+  width:200px;
+}
+
+
+h8:nth-of-type(2)
+{color:red;}

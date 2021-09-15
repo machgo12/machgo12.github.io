@@ -1,0 +1,72 @@
+h1{
+  background-color:rgba(89, 180, 144, 0.5)
+}
+img{
+  vertical-align:bottom;
+}
+h2{
+  color:red;
+ background-color: rgba(89,180,144,1);
+}
+
+ul{
+  list-style-type:circle;
+  list-style-position:inside;
+  list-style-image:url(../MyCSS/icon.png) 
+
+}
+ol{
+  list-style-type:lower-alpha;
+  text-shadow:5px 5px 5px rgba(89, 180, 144, 0.5)
+}
+.box1{
+  background-color:orange;
+  width:200px;
+  height:200px;
+  margin-bottom:20px;
+}
+
+.box2{
+  background-color:blue;
+  width:50%;
+  height:50%;
+  overflow:scroll;
+  border:2px solid whitesmoke;
+  padding-top:20px;
+  padding-left:20px;
+  margin:10px;
+}
+
+.box3{
+  background-color:burlywood;
+  width:200px;
+  height:200px;
+  margin-left:auto;
+  margin-right:auto;
+  display:inline-block;
+}
+
+.box4{
+position:fixed;
+background-color:tomato;
+}
+
+.box5{
+  width:200px;
+  height:200px;
+  background-color:blue;
+  border:20px solid blue;
+  box-sizing:border-box;
+
+}  
+
+.box6{
+  width:100px;
+  height:100px;
+  background-color:orange;
+  box-shadow:10px 5px 5px rgba(89, 180, 144, 0.5); 
+}  
+
+footer{
+  background-image:url(../MyCSS/header.png)
+}
